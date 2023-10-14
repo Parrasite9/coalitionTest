@@ -1,0 +1,31 @@
+.num2 {
+}
+
+.num2__background-image {
+    position: fixed;
+    height: 300px;
+    min-width: 100%;
+    min-height: 500px;
+    margin-top: -74px;
+    background-image: url('/public/images/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -11; /* Original background image */
+}
+
+.num2__Text {
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+}
+
+.num2__Text > h1 {
+    font-size: 7em;
+    opacity: .5;
+}
+
+.num2__Text > h2,
+.num2__Text > p  {
+    color: white;
+}

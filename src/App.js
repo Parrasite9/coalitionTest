@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import MiddleNav from './Components/MiddleNav'
 import Navbar from './Components/Navbar'
 import MultipleItems from './Components/ImgScroller'
+import NumberTwo from './Components/NumberTwo'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MiddleNav />
       <Body />
       <MultipleItems />
+      <NumberTwo />
       
     </div>
   )
