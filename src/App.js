@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import MultipleItems from './Components/ImgScroller'
 import NumberTwo from './Components/NumberTwo'
 import FooterNav from './Components/FooterNav'
+import Schedule from './Components/Schedule'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MultipleItems />
       <NumberTwo />
       <FooterNav />
+      <Schedule />
       
     </div>
   )

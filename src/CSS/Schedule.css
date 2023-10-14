@@ -1,0 +1,20 @@
+.schedule {
+    background-color: #f0f3f6;
+    opacity: .75;
+    width: 25%;
+    margin-left: 15%;
+}
+
+.schedule__header > h1 {
+    padding-top: 5%;
+    padding-left: 7.5%;
+}
+
+.schedule__date__and__name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.schedule__date > p {
+    padding-left: 15%;
+}
