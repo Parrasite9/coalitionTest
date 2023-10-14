@@ -13,6 +13,8 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Hero />
+      <MiddleNav />
 
       
     </div>
