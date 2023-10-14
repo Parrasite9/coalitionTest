@@ -5,6 +5,7 @@ import MiddleNav from './Components/MiddleNav'
 import Navbar from './Components/Navbar'
 import MultipleItems from './Components/ImgScroller'
 import NumberTwo from './Components/NumberTwo'
+import FooterNav from './Components/FooterNav'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Body />
       <MultipleItems />
       <NumberTwo />
+      <FooterNav />
       
     </div>
   )

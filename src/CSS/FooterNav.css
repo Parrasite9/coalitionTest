@@ -1,0 +1,20 @@
+.footerNav {
+    display: flex;
+    background-color: #3a465c;
+    padding-left: 15%;
+}
+
+.footerNav > h2 > a {
+    white-space: nowrap;
+    color: #b0b4be;
+    padding: 15% 0;
+    text-decoration: none;
+}
+
+
+
+.footerNav > h2 > a:hover {
+    background-color: #b0b4be;
+    color: darkblue;
+    text-decoration: underline;
+}
