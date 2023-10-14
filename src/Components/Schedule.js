@@ -4,6 +4,7 @@ import '../CSS/Schedule.css'
 function Schedule() {
   return (
     <div className='schedule'>
+      <img src="images/footer.png" alt="footer_img" />
       <div className="schedule__container">
         <div className="schedule__header">
             <h1>SCHEDULE</h1>

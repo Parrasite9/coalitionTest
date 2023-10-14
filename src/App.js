@@ -19,6 +19,8 @@ function App() {
       <MultipleItems />
       <NumberTwo />
       <FooterNav />
+      <Schedule />
+      <Footer />
 
       
     </div>

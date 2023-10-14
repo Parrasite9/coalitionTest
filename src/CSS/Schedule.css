@@ -1,8 +1,26 @@
 .schedule {
-    background-color: #f0f3f6;
-    opacity: .75;
+    background-color: #e1e5ef;
+    /* opacity: .75; */
     width: 25%;
     margin-left: 15%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.schedule > img {
+    position: relative;
+    height: 300px;
+    /* min-width: 125%; */
+    min-height: 800px;
+    /* margin-top: -74px; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    z-index: -11;
+}
+
+.schedule__container {
+    background-color: #f0f3f6;
 }
 
 .schedule__header > h1 {
