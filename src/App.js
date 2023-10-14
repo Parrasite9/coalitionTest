@@ -16,6 +16,8 @@ function App() {
       <Hero />
       <MiddleNav />
       <Body />
+      <MultipleItems />
+      <NumberTwo />
 
       
     </div>

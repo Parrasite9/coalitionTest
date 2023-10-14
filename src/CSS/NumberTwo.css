@@ -1,7 +1,7 @@
 .num2 {
 }
 
-.num2__background-image {
+/* .num2__background-image {
     position: fixed;
     height: 300px;
     min-width: 100%;
@@ -11,11 +11,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -11; /* Original background image */
-}
+    z-index: -11; 
+} */
 
 .num2__Text {
-    padding: 0 30%;
+    /* padding: 0 30%; */
     display: flex;
     align-items: center;
 }
@@ -27,5 +27,5 @@
 
 .num2__Text > h2,
 .num2__Text > p  {
-    color: white;
+    /* color: white; */
 }

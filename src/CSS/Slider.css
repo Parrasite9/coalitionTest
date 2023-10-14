@@ -2,6 +2,8 @@
     background-color: #3a465c;
     opacity: .75;
     padding: 0 15%;
+    margin-top: 375px;
+    width: 122%;
 }
 
 .slider__container > h2 {
@@ -14,4 +16,18 @@
     margin-left: 3%;
     padding: 15%;
     text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .slider__container {
+        margin-top: 198px;
+        width: 78%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .slider__container {
+        margin-top: 301px;
+        width: 70%;
+    }
 }

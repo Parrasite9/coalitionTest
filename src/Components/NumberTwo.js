@@ -4,7 +4,6 @@ import '../CSS/NumberTwo.css'
 function NumberTwo() {
   return (
     <div className='num2'>
-      <div className="num2__background-image"></div> {/* Original background image */}
       <div className="num2__Text"> {/* Content */}
         <h1>.02</h1>
         <h2>Climb</h2>
