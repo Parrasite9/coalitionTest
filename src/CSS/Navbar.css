@@ -1,17 +1,23 @@
 .navbar {
     display: flex;
-    width: 100%;
-    /* box-sizing: border-box; */
+    width: 90%; /* Adjusted width to allow for 5% margin on both sides */
+    margin: 0 5%; /* 5% margin on both sides */
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo__container {
+    flex: 1; /* Takes up available space, approximately 25% */
 }
 
 .navlink__section {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    flex: 3; /* Takes up 75% of the available space */
 }
-.navlink__section > .navlink > a {
-    /* text-decoration: none;     */
-    /* justify-content: space-between; */
-    margin-left: 5%;
+
+.navlink__section > a {
+    margin-left: 5%; /* 5% margin between navlinks */
+    text-decoration: none; /* Remove underline from links */
 }

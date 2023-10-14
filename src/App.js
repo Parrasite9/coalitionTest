@@ -13,14 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <MiddleNav />
-      <Body />
-      <MultipleItems />
-      <NumberTwo />
-      <FooterNav />
-      <Schedule />
-      <Footer />
+
       
     </div>
   )
