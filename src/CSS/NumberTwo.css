@@ -1,4 +1,5 @@
 .num2 {
+    margin-left: 25%;
 }
 
 /* .num2__background-image {
@@ -18,6 +19,7 @@
     /* padding: 0 30%; */
     display: flex;
     align-items: center;
+    width: 135%;
 }
 
 .num2__Text > h1 {
@@ -28,4 +30,16 @@
 .num2__Text > h2,
 .num2__Text > p  {
     /* color: white; */
+}
+
+@media (min-width: 1440px) {
+    .num2__Text {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .num2__Text {
+        width: 60%;
+    }
 }
