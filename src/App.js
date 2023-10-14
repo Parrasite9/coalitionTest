@@ -7,6 +7,7 @@ import MultipleItems from './Components/ImgScroller'
 import NumberTwo from './Components/NumberTwo'
 import FooterNav from './Components/FooterNav'
 import Schedule from './Components/Schedule'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <NumberTwo />
       <FooterNav />
       <Schedule />
+      <Footer />
       
     </div>
   )
