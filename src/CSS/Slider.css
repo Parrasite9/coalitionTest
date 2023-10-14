@@ -1,0 +1,17 @@
+.slider__container {
+    background-color: #3a465c;
+    opacity: .75;
+    padding: 0 15%;
+}
+
+.slider__container > h2 {
+    color: aqua;
+}
+
+ .slider__slide > h3 {
+    background-color: aqua;
+    color: black;
+    margin-left: 3%;
+    padding: 15%;
+    text-align: center;
+}
