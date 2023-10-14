@@ -18,6 +18,7 @@ function App() {
       <Body />
       <MultipleItems />
       <NumberTwo />
+      <FooterNav />
 
       
     </div>
