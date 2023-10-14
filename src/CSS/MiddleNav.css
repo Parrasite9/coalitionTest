@@ -16,12 +16,18 @@
     grid-row: span 2; /* Make the image span 2 rows */
 }
 
+.logo__section > .firstName {
+    display: flex;
+    /* align-content: flex-end !important; */
+}
+
+
 .middleNav__navlinks {
     display: flex;
     align-items: center;
 }
 
-.middleNav__navlinks > .navlinks > a {
+.middleNav__navlinks > a {
     margin-left: 15% !important;
     white-space: nowrap;
 }
