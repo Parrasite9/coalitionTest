@@ -3,28 +3,48 @@
 }
 
 .body__background-image {
-    position: fixed;
+    position: relative;
     height: 300px;
-    min-width: 100%;
-    min-height: 500px;
-    margin-top: -74px;
-    background-image: url('/public/images/center.png');
+    min-width: 152%;
+    min-height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -11; /* Original background image */
+    z-index: -11; 
 }
 
 .body__Text {
-    padding: 0 30%;
+    /* padding: 0 30%; */
+    margin-left: 35%;
+
 }
 
 .body__Text > h1 {
     font-size: 7em;
     opacity: .5;
+    margin-top: -900px;
 }
 
 .body__Text > h2,
 .body__Text > p  {
     color: white;
+}
+
+@media (min-width: 1600px) {
+    .body__background-image {
+        position: relative;
+        height: 300px;
+        min-width: 100%;
+        min-height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -11; 
+    }
+        
+        .body__Text > h1 {
+            font-size: 7em;
+            opacity: .5;
+            margin-top: -450px;
+        }
 }

@@ -4,7 +4,7 @@ import '../CSS/Body.css'
 function Body() {
   return (
     <div className='body'>
-      <div className="body__background-image"></div> {/* Original background image */}
+      <img className="body__background-image" src="images/center.png" alt="body_img" />
       <div className="body__Text"> {/* Content */}
         <h1>.01</h1>
         <h2>History</h2>

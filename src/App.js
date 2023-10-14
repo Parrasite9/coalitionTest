@@ -15,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <MiddleNav />
+      <Body />
 
       
     </div>
