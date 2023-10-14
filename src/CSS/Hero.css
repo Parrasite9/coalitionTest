@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
     background-image: url('/public/images/hero1.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -8,4 +8,69 @@
     min-height: 100%;
     margin-top: -74px;
     z-index: -1;
+} */
+
+.background-image {
+    position: fixed;
+    height: 300px;
+    min-width: 100%;
+    min-height: 500px;
+    margin-top: -74px;
+    background-image: url('/public/images/hero1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -11; /* Original background image */
 }
+
+.overlay {
+    position: fixed;
+    margin-top: -75px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/images/hero2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3; /* Overlay */
+}
+
+.hero__Text {
+    position: relative;
+    z-index: 2; /* Content (h1 elements) */
+    padding-left: 34%;
+    top: -50px;
+}
+
+.hero__Text > h1 > .hero__Text1 {
+    color: #4d4d4d;
+}
+
+
+.hero__Text > h1 > .hero__Text2 {
+    color: #414f6b;
+}
+
+.hero__Text > h1 > .hero__Text1,
+.hero__Text > h1 > .hero__Text2 {
+    font-size: 3.5em;
+}
+
+/* .overlay { */
+    /* position: absolute; */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    /* height: 300px;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: -74px;
+    background-image: url('/public/images/hero2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+  } */
+
